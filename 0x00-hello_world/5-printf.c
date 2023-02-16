@@ -1,9 +1,12 @@
 #include <stdio.h>
-/*
- * Main - is a must 
- * Use the function printf
- * Prints "with proper grammar, but the outcome is a piece of art,"
- * Return: the program should return 0
+
+/**
+ * main - Entry point
+ *
+ * Description: prints "with proper grammar, but the outcome is a piece of
+ * art,"
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
