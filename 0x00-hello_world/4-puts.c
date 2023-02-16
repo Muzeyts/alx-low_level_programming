@@ -1,12 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * Main - is a function
- * Use the function puts
- * I am not allowed to use printf
- * Return: always return 0 or success
+ * main - Entry point
+ *
+ * Description: prints "Programming is like building a multilingual puzzle"
+ *
+ * Return: Always 0 (Success)
  */
- 
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
