@@ -16,12 +16,6 @@ void puts_half(char *str)
 		i++;
 	}
 	max = i;
-/*
-	if (max % 2 == 1)
-		j = max / 2;
-	else
-		j = (max - 1) / 2;
-*/
 	j =  max / 2;
 	while (j <= max)
 	{
