@@ -1,22 +1,21 @@
 #include "lists.h"
 
 /**
- * free_dlistint - frees a dlistint_t list
+ * free_dlistint - this frees the dlistint_t list
  *
- * @head: head of the list
- * Return: no return
+ * @head:which is the  head of the list
+ * Return: there is no return
  */
 void free_dlistint(dlistint_t *head)
 {
-	dlistint_t *tmp;
-
+	dlistint_t *interim;
 	if (head != NULL)
 		while (head->prev != NULL)
 			head = head->prev;
 
-	while ((tmp = head) != NULL)
+	while ((interim = head) != NULL)
 	{
 		head = head->next;
-		free(tmp);
+		free(interim);
 	}
 }
